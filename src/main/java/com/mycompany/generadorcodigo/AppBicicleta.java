@@ -5,11 +5,12 @@
  */
 package com.mycompany.generadorcodigo;
 
+import generadorcodigo2.Bicicletas;
 import java.util.Scanner;
 
 /**
  *
- * @author daw1
+ * @author Ricardo
  */
 public class AppBicicleta {
 

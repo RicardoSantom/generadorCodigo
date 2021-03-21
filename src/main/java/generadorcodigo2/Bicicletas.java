@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.generadorcodigo;
+package generadorcodigo2;
 
 /**
  *
- * @author daw1
+ * @author Ricardo
  */
 public class Bicicletas {
      private int pulgadas;
