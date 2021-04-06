@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package generadorcodigo2;
+package com.mycompany.generadorcodigo;
 
 /**
  *
@@ -46,5 +46,11 @@ public class Bicicletas {
     public void setTalla(String talla) {
         this.talla = talla;
     }
+
+    @Override
+    public String toString() {
+        return "Bicicletas{" + "pulgadas=" + pulgadas + ", tipo=" + tipo + ", talla=" + talla + '}';
+    }
+    
     
 }

@@ -5,7 +5,6 @@
  */
 package com.mycompany.generadorcodigo;
 
-import generadorcodigo2.Bicicletas;
 import java.util.Scanner;
 
 /**
@@ -15,19 +14,25 @@ import java.util.Scanner;
 public class AppBicicleta {
 
     public static void main(String[] args) {
-       Bicicletas bicicleta1 = new Bicicletas();
-       Scanner reader = new Scanner(System.in);
+       
+       Scanner teclado = new Scanner(System.in);
+       int pulgadas;
+       String tipo;
+       String talla;
        
         System.out.println("Introduzca talla de bicileta: ");
-        bicicleta1.setTalla(reader.nextLine());
+        pulgadas = teclado.nextInt();
+        teclado.nextLine();
         
         System.out.println("Introduzca pulgadas de rueda: ");
-        bicicleta1.setPulgadas (reader.nextInt());
+        tipo = teclado.nextLine();
         
         System.out.println("Introduzca tipo de bicileta: ");
-        bicicleta1.setTipo(reader.nextLine());
-
-        System.out.println("Las características de la bicicleta son:" + bicicleta1.getTalla());
+        talla = teclado.nextLine();
+        
+        Bicicletas bicicleta1 = new Bicicletas(pulgadas,tipo,talla);
+        System.out.println("Las características de la bicicleta son:" + bicicleta1.toString());
     }
     
 }
+
