@@ -49,7 +49,7 @@ public class Bicicletas {
 
     @Override
     public String toString() {
-        return "Bicicletas{" + "pulgadas=" + pulgadas + ", tipo=" + tipo + ", talla=" + talla + '}';
+        return " La bicicleta es de tipo " + tipo + ", su talla es la " + talla + " y sus ruedas son de " + pulgadas + " pulgadas.";
     }
     
     
